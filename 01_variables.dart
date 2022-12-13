@@ -30,5 +30,18 @@ void late_variables() {
 
 late String description;
 void final_and_const() {
-  
+  //a final variable can only be set once.
+  final name = 'Bob'; // Without a type annotation
+  final String nickname = 'Bobby';
+
+  //在声明 const 变量时可以直接为其赋值，也可以使用其它的 const 变量为其赋值
+  const bar = 1000000;
+  const double atm = 1.01325 * bar;
+
+  //没有使用 final 或 const 修饰的变量的值是可以被更改的，即使这些变量之前引用过 const 的值
+  //Constant variables can't be assigned a value
+  var foo = const [];
+  final bar1 = const [];
+  const baz = [];
+  foo = [1, 2, 3];
 }
