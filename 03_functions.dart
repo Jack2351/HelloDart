@@ -1,8 +1,7 @@
 //https://dart.cn/guides/language/language-tour#functions
 void main(List<String> args) {
   parameters();
- // the_main_function();
-  //booleans();
+
 }
 
 void parameters(

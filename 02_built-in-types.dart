@@ -16,7 +16,7 @@ void numbers(){
   assert(piAsString == '3.14');
   print(piAsString);
 
-  const msPerSecond = 3000;
+  const msPerSecond = 1500;
   const secondsUntilRetry = 2;
   const msUntilRetry = secondsUntilRetry * msPerSecond;
   print(msUntilRetry);
