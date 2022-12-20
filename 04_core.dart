@@ -1,3 +1,5 @@
+//https://dart.cn/guides/libraries/library-tour#dartcore---numbers-collections-strings-and-more
+
 import 'dart:math';
 
 void main(){

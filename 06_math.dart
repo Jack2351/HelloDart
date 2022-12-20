@@ -1,5 +1,6 @@
-import 'dart:math';
+//https://dart.cn/guides/libraries/library-tour#dartmath---math-and-random
 
+import 'dart:math';
 void main(List<String> args){
   math_and_random();
 }
